@@ -13,6 +13,7 @@ import ObjectMapper
 import Foundation
 import NotionClient
 
+let REQUEST_TIMEOUT: TimeInterval = 20
 
 class APIRequest: NSObject {
     

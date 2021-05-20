@@ -13,7 +13,7 @@ class CardCVCell: UICollectionViewCell {
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
-    var images = [UIImage(named: "picture1"),UIImage(named: "picture2"),UIImage(named: "picture3")]
+    var images = [UIImage(named: "picture2"),UIImage(named: "picture1"),UIImage(named: "picture3")]
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.cornerRadius = 10
