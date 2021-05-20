@@ -1,0 +1,6 @@
+framework module Pods_iNotion {
+  umbrella header "Pods-iNotion-umbrella.h"
+
+  export *
+  module * { export * }
+}
